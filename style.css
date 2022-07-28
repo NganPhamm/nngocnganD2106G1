@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nutmaunau{
+    background: rgb(114, 83, 49);
+    border-radius: 6px;
+    color:rgba(244, 202, 163, 0.84);
+    padding: 8px 18px;
+    
+}
+.nutmaucam{
+    background: rgb(247, 118, 39);
+    border-radius: 6px;
+    color:whitesmoke;
+    padding: 10px 20px;
+}
+#header{
+    display: flex;
+    padding: 0 120px;
+    height: 95px;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+#header ul{
+    list-style-type: none;
+    
+}
+#header ul li{
+    display: inline;
+    padding: 0 20px;
+}
+#header ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+#header li a:hover{
+    opacity: 0.8;
+    text-decoration: overline;
+    color:  rgb(244, 202, 163);
+}
+.button a:hover{
+    opacity: 0.8;
+    color: rgb(247, 118, 39);
+    background-color: rgb(247, 205, 166);
+    font-weight: bold;
+}
+/* #banner{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+} */
+.banner-1{
+    overflow: hidden;
+}
+.banner-1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.148);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.quote{
+    position:relative;
+    width: 500px;
+    padding: 22px 27px 22px 27px;
+    margin: 200px 400px 100px 400px;
+}
+.type {
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(29, 81, 213, 0.571);
+    font-size: 200px;
+    letter-spacing: 0.5px;
+}
+.quote h1{
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+}
+.quote h4{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: serif;
+    padding: 5px;
+} 
+#PuffPastry{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 350px;
+}
+#PuffPastry .chubentrai{
+    width: 60%;
+}
+#PuffPastry .chubentrai h1{
+    font-size: 48px;
+    line-height: 80px;
+}
+#PuffPastry .chubentrai p{
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+    
+}
+.khungtron{
+    border-radius: 50%;
+    height: 50%;
+}
+.khungtron-1{
+    border-radius: 50%;
+    
+}
+#fruitpies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 135px;
+    height: 350px;
+}
+#fruitpies .chubentrai{
+    width: 70%;
+}
+#fruitpies .chubentrai h1{
+    font-size: 48px;
+    line-height: 80px;
+}
+#fruitpies .chubentrai p{
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(36, 35, 35);
+    margin: 22px 0 38px 0;
+    
+}
+#sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    height: 150px;
+    text-align: center;
+    background: rgba(103, 74, 60, 0.934);
+}
+#sec-2 h2{
+    font-size: 40px;
+    color: whitesmoke;
+}
+#sec-2 p{
+    font-size: 12px;
+    color: whitesmoke;
+}
+#sec3{
+    text-align: center;
+    padding: 10px 135px;
+    height: 600px;
+    
+}
+#sec3 h1{
+    /* margin: 20px 0 10px 0; */
+    font-size: 50px;
+}
+#sec3 .aloalo{
+    width: 40%;
+    margin: 0 auto
+}
+.motdong{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background: rgb(249, 180, 137);
+    border-radius: 6px;
+    width: 30%;
+    padding:30px ;
+}
+.box p {
+    padding: 20px 0 20px 0;
+    color: aliceblue;
+}
+#sec4 h2{
+    padding: 20px 0;
+}
+#contact{
+    background: rgba(103, 74, 60, 0.934);
+    display: flex;
+    height: 400px;
+    padding: 30px 20px;
+}
+.formmau{
+    display:flex ;
+    justify-content: space-between;
+}
+h3, .formmau{
+    text-align: left;
+}
+form,.noidung{
+    width: 40%;padding: 10px;
+}
+input ,textarea{
+    width: 100%;
+    padding: 18px 14px;
+    margin-bottom:48px;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    background: rgb(247, 118, 39);
+    padding: 30px 0;
+    margin-top: 30px 
+}
+.cuoi{
+    height: 30px;
+}
